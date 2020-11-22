@@ -1,4 +1,4 @@
 clear
-M = reshape([1,10000], 100, 100); % FÝX THÝS
+M = reshape(linspace(1,100,10000), 100, 100); % Fix This
 image(M);
 colormap('gray');
