@@ -49,3 +49,4 @@ figure; imshow(im_flap); title('fspecial Laplacian filter');
 %% Image Sharpening
 im_sharp = imD + im_lap;
 figure; imshow(im_sharp); title('Sharpened Image with Laplacian filter');
+
